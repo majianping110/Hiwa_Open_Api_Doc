@@ -13,19 +13,44 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 - Hiwa私有api使用统一的数据返回结构：
 ```
 {
-	"ret": 0,
+	"ret": 0, //成功返回0
 	"data": 
 }
 ```
 或者
 ```
 {
-	"ret": -1,
+	"ret": -1, //失败返回-1
 	"error": {
 		"code": 500,
 		"msg": "请求错误"
 	}
 }
 ```
-## api列表
-### 
+## 私有api列表
+###  /auth/coin/info    获取币的简介和市值信息
+请求参数
+```
+{
+	"token": "143c1a081903c06e4f499ff2c3376ee08",
+	"coin": "btc"
+}
+```
+返回值：
+```
+{
+	"ret": 0,
+	"data": {
+		"name": "btc",
+		"desc": "比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。...",
+		"image_url": "https://oss.hiwa.net.cn/icon/coin/btc.png",
+		"ranking": 1,
+		"supply_max": 21000000,
+		"supply_total": 17372175,
+		"supply_circulating": 17372175,
+		"market_cap_percent": 52.42,
+		"supply_total_percent": 52.42,
+		"market_cap_usd": 111113871787
+	}
+}
+```
