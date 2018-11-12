@@ -1,7 +1,7 @@
 
 # 公有api说明文档
 ## Hiwa公有api访问说明
-- 私有api访问域名：https://oapi.hiwa.net.cn
+- 公有api访问域名：https://oapi.hiwa.net.cn
 - Hiwa公有api使用统一的数据返回结构：
 ```
 {
