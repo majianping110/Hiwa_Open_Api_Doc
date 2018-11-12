@@ -54,3 +54,11 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 	}
 }
 ```
+字段说明：
+```
+<table>
+<tr><th>字段</th><th>说明</th></tr>
+<tr><td>字段</td><td>说明</td></tr>
+<tr><td>字段</td><td>说明</td></tr>
+</table>
+```
