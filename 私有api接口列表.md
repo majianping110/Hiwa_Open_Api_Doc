@@ -4,7 +4,7 @@
 Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这些接口给合作伙伴提供私有或定制的数据，未经授权的用户无法调用。私有api调用流程如下：
 1. 普通用户需要联系Hiwa客服（微信：**hiwa01**）或者发送邮件到 **majianping@hiwa-inc.com**，申请成为Hiwa合作伙伴。
 2. Hiwa工作人员会在24小时内回复您的申请信息，符合Hiwa伙伴条件的用户将会收到Hiwa后台生成的伙伴账号（包括识别码key和密码secret）。
-3. 合作伙伴使用识别码和密码请求token接口（[获取token]: https://github.com/majianping110/Hiwa_Open_Api_Doc/blob/master/%E5%85%AC%E6%9C%89api%E6%8E%A5%E5%8F%A3%E5%88%97%E8%A1%A8.md "获取token"），获取访问凭据token。
+3. 合作伙伴使用识别码和密码请求token接口（[获取token](https://github.com/majianping110/Hiwa_Open_Api_Doc/blob/master/%E5%85%AC%E6%9C%89api%E6%8E%A5%E5%8F%A3%E5%88%97%E8%A1%A8.md)），获取访问凭据token。
 4. 合作伙伴使用上一步获取的token，请求Hiwa私有api。
 ## Hiwa私有api访问说明
 - 私有api访问域名：https://oapi.hiwa.net.cn
