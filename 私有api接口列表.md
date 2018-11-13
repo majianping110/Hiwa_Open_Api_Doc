@@ -70,5 +70,5 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 |market_cap_percent|市值占比（百分比）|
 |supply_total_percent|流通量占比（百分比）|
 |market_cap_usd|市值（美元）|
-|volume_24h_usd|24小时流通量|
-|turnover_rate_24h|24小时换手率|
+|volume_24h_usd|24小时流通量（美元））|
+|turnover_rate_24h|24小时换手率（百分比）|
