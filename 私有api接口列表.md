@@ -42,15 +42,17 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 	"ret": 0,
 	"data": {
 		"name": "btc",
-		"desc": "比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络。...",
+		"desc": "比特币（BitCoin）的概念最初由中本聪在2009年提出，根据中本聪的思路设计发布的开源软件以及建构其上的P2P网络...",
 		"image_url": "https://oss.hiwa.net.cn/icon/coin/btc.png",
 		"ranking": 1,
 		"supply_max": 21000000,
-		"supply_total": 17372175,
-		"supply_circulating": 17372175,
-		"market_cap_percent": 52.42,
-		"supply_total_percent": 52.42,
-		"market_cap_usd": 111113871787
+		"supply_total": 17373450,
+		"supply_circulating": 17373450,
+		"market_cap_percent": 52.340000000000003,
+		"supply_total_percent": 52.340000000000003,
+		"market_cap_usd": 110251511912,
+		"volume_24h_usd": 4321998947.4580898,
+		"turnover_rate_24h": 3.9199999999999999
 	}
 }
 ```
@@ -68,3 +70,5 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 |market_cap_percent|市值占比（百分比）|
 |supply_total_percent|流通量占比（百分比）|
 |market_cap_usd|市值（美元）|
+|volume_24h_usd|24小时流通量|
+|turnover_rate_24h|24小时换手率|
