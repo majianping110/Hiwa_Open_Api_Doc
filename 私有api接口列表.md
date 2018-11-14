@@ -97,3 +97,34 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 |activity_addresss|活跃地址数|
 |trader_number|活跃交易数|
 |activity_talk|社群活跃数|
+###  /auth/panel/market    获取大盘走势数据
+请求参数
+```
+{
+	"token": "143c1a081903c06e4f499ff2c3376ee08",  //必填
+	"days":7
+}
+```
+返回值：
+```
+{
+	"ret": 0,
+	"data": [{
+		"time": 1542168120,
+		"market_cap": 209498682303,
+		"volume_usd": 13024414781.200001
+	}, {
+		"time": 1542082620,
+		"market_cap": 212105007915,
+		"volume_usd": 13282259141.200001
+	}]
+}
+```
+返回值说明:
+
+|字段|详解|
+|:---|:--|
+|time|时间戳|
+|market_cap|大盘流通量|
+|volume_usd|大盘市值（美元）|
+
