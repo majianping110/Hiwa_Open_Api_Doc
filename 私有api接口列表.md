@@ -72,3 +72,28 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 |market_cap_usd|市值（美元）|
 |volume_24h_usd|24小时流通量（美元））|
 |turnover_rate_24h|24小时换手率（百分比）|
+###  /auth/panel/mood    获取大盘市场情绪
+请求参数
+```
+{
+	"token": "143c1a081903c06e4f499ff2c3376ee08",  //必填
+}
+```
+返回值：
+```
+{
+	"ret": 0,
+	"data": {
+		"activity_addresss": 250943,
+		"trader_number": 127290,
+		"activity_talk": 183621
+	}
+}
+```
+返回值说明:
+
+|字段|详解|
+|:---|:--|
+|activity_addresss|活跃地址数|
+|trader_number|活跃交易数|
+|activity_talk|社群活跃数|
