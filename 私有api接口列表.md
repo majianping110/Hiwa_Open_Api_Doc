@@ -127,4 +127,50 @@ Hiwa私有api是针对特定合作伙伴提供的数据接口，Hiwa将通过这
 |time|时间戳|
 |market_cap|大盘流通量|
 |volume_usd|大盘市值（美元）|
+###  /auth/coin/ranking    获取币排行榜数据
+请求参数
+```
+{
+	"token": "143c1a081903c06e4f499ff2c3376ee08",  //必填
+	"page_num":1,
+	"page_size":50
+}
+```
+返回值：
+```
+{
+	"ret": 0,
+	"data": [{
+		"id": 52,
+		"coin_name": "XRP",
+		"coin": "XRP",
+		"rank": 2,
+		"circulating_supply": 40327341704,
+		"total_supply": 99991780039,
+		"max_supply": 100000000000,
+		"usd_price": 0.3826129415,
+		"last_updated": 1543409944,
+		"turnover_rate": 4.38,
+		"market_cap_percent": 11.44,
+		"fiat_price": "¥3.3113",
+		"market_cap": "¥1,072.71亿",
+		"volume": "46.96亿",
+		"rate": "6.9522",
+		"change_percent": "9.92",
+		"coin_img": "https:\/\/hiwa-inc.oss-cn-beijing.aliyuncs.com\/icon\/coin\/xrp.png"
+	}]
+}
+```
+返回值说明:
+
+|字段|详解|
+|:---|:--|
+|time|时间戳|
+|total_supply|当前总数量(个)|
+|max_supply|最大数量（个）|
+|turnover_rate|换手率（百分比）|
+|market_cap_percent|市值占比|
+|market_cap|总市值|
+|volume|流通量|
+|change_percent|涨跌幅|
 
